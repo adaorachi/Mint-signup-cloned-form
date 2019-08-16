@@ -2,9 +2,56 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mint Signup Page</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
+    <div class="wrapper">
+      <div class="signin">
+        <div class="signin-text">
+          <p>Already have an Intuit account?</p>
+          <p class="blue">I forgot my User ID or Password</p>
+        </div>
+        <div class="signin-but">
+          <button type="button" name="button" class="button"><i class="fas fa-lock"></i> Sign In</button>
+        </div>
+      </div>
 
+      <div class="logo">
+        <a href="#" class="init-logo"> <img src="images/intuit-logo.png" alt="logo" width="170"></a>
+        <div class="mini-logos">
+          <span><img src="images/mint-logo.png" alt="mint-logo" width="30" height="30"><span class="logo-text">mint</span></span>
+          <span><img src="images/quickbooks-logo.png" alt="quickbooks-logo" width="25" height="25"><span class="logo-text">quickbooks</span></span>
+          <span><img src="images/turbotax-logo2.jpeg" alt="turbotax-logo" width="25" height="25"><span class="logo-text">turbotax</span></span>
+        </div>
+      </div>
+
+      <div class="form">
+        <form class="signup-form" action="index.html" method="post">
+          <h4>Create an Intuit account</h4>
+          <div class="mini-text">
+            <p>One account for everything Intuit, including Mint.</p>
+            <a href="#" class="blue">Learn more</a>
+          </div>
+          <div class="form-inputs">
+            <div class="inputs">
+              <label for="email">Email address</label>
+              <input type="email" name="email">
+            </div>
+
+            <div class="inputs">
+              <label for="phone">Phone (recommended)</label>
+              <input type="number" name="phone">
+              <span>Standard call, messaging or data rates may apply.</span>
+            </div>
+
+          </div>
+        </form>
+      </div>
+
+    </div>
   </body>
 </html>

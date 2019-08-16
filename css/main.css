@@ -1,0 +1,136 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background-color: #eeeeee;
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans',serif;
+}
+ol, ul {
+	list-style: none;
+}
+a, li{
+  text-decoration: none;
+  list-style: none;
+  color: #555;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* General */
+.wrapper{
+	color: #555;
+  font-size: 15px;
+  margin: 10px 20px;
+}
+
+.signin{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+.blue{
+  color: #0077C5;
+
+}
+.button{
+  background-color: #0077C5;
+  border: 1px solid #666;
+  padding: 7px 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: #fff;
+}
+.logo{
+  text-align: center;
+}
+.mini-logos{
+  display: flex;
+  justify-content: center;
+
+}
+.mini-logos span{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+
+}
+.form{
+  width: 25%;
+  min-height: 300px;
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px auto;
+  border: 1px solid #999;
+  border-radius: 2px;
+}
+.form h4{
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.form p,
+.form a{
+  text-align: center;
+  font-size: 0.8rem;
+}
+.form a{
+  display: block;
+}
+.mini-text{
+  margin: 20px 10px;
+}
+.inputs label{
+  display: block;
+  font-size: 0.8rem;
+  margin-bottom: 7px;
+}
+.inputs input{
+  width: 100%;
+  height: 25px;
+
+}
+.inputs{
+  margin-bottom: 20px;
+}
+.inputs span{
+  font-size: 0.7rem;
+  margin-top: 0
+}
