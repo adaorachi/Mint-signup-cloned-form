@@ -70,7 +70,7 @@ table {
   color: #0077C5;
 
 }
-.button{
+.button, .account-btn button {
   background-color: #0077C5;
   border: 1px solid #666;
   padding: 7px 15px;
@@ -124,13 +124,35 @@ table {
 }
 .inputs input{
   width: 100%;
-  height: 25px;
+  height: 30px;
+  border-radius: 3px;
+	border: 1px solid #ccc;
 
 }
 .inputs{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .inputs span{
   font-size: 0.7rem;
   margin-top: 0
+}
+
+.account-btn{
+	text-align: center;
+}
+.account-btn button {
+  width: 100%;
+	margin: 0px;
+	padding: 10px 15px;
+}
+
+.privacy-terms{
+	text-align: center;
+	font-size: 0.9rem;
+	margin-top: 10px;
+	font-style: italic; 
+}
+
+.form-footer a{
+	display: inline-block;
 }
