@@ -61,6 +61,8 @@ table {
   margin: 10px 20px;
 }
 
+/* header */
+
 .signin{
   display: flex;
   justify-content: flex-end;
@@ -78,6 +80,9 @@ table {
   margin-left: 10px;
   color: #fff;
 }
+
+/* intuit logo and mini logos*/
+
 .logo{
   text-align: center;
 }
@@ -91,15 +96,17 @@ table {
   align-items: center;
   padding: 5px;
 
+/* Form */
 }
 .form{
   width: 25%;
   min-height: 300px;
   background-color: #fff;
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   margin: 10px auto;
   border: 1px solid #999;
   border-radius: 2px;
+	position: relative;
 }
 .form h4{
   font-weight: bold;
@@ -150,9 +157,72 @@ table {
 	text-align: center;
 	font-size: 0.9rem;
 	margin-top: 10px;
-	font-style: italic; 
+	font-style: italic;
 }
 
-.form-footer a{
+/* footer */
+
+.form-footer p{
+	margin: 20px auto;
+	font-size: 0.7rem;
+}
+.form-footer a, .terms a{
 	display: inline-block;
+	font-size: 0.7rem;
+}
+
+.terms{
+	background-color: #eeeeee;
+	margin: 0px -20px;
+}
+.terms p{
+	padding: 20px;
+	font-size: 0.7rem;
+	bottom: 0;
+}
+.form-footer a:hover,
+.terms a:hover,
+.mini-text a:hover,
+.footer-links a:hover {
+	text-decoration: underline;
+}
+
+footer{
+	margin: 0px auto;
+	width: 50%;
+	padding: 20px 0px;
+}
+.footer-links ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.footer-links li{
+	margin: 5px;
+}
+.footer-content p,
+.footer-links a{
+	text-align: center;
+	font-size: 0.7rem;
+}
+/* MEDIA querries */
+
+@media screen and (max-width: 1020px){
+	.form{
+	  width: 35%;
+	}
+}
+@media screen and (max-width: 900px){
+	.form{
+	  width: 50%;
+	}
+}
+
+@media screen and (max-width: 700px){
+	.form{
+	  width: 80%;
+	}
+	footer{
+		width: 100%;
+	}
 }
