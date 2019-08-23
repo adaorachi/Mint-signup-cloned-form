@@ -4,3 +4,4 @@ This is a webpage cloned to look like the real life website, <a href="https://ac
 
 Find attatched below some screenshot of the mimicked signup webpage:
 <a href="images/mint-screenshot.PNG"> signup page screenshot </a>
+<a href="https://raw.githack.com/adaorachi/mint-signup-cloned-form/development/index.html">signup page screenshot 2</a>
