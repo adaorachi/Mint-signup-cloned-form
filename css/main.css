@@ -1,259 +1,317 @@
 /* Reset */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+cite,
+code,
+small,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
+
 body {
-	background-color: #eeeeee;
-	margin: 0;
-	padding: 0;
-	font-family: 'Open Sans',serif;
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+  list-style: none;
 }
-a, li{
+
+a,
+li {
   text-decoration: none;
   list-style: none;
   color: #555;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
-
 
 /* General */
-
-.wrapper{
-	color: #555;
+.wrapper {
+  color: #555;
   font-size: 15px;
   margin: 10px 20px;
 }
 
-
-
 /* header */
-
-.signin{
+.signin {
   display: flex;
   justify-content: flex-end;
   font-size: 12px;
 }
-.blue{
-  color: #0077C5;
 
+.blue {
+  color: #0077c5;
 }
-.button, .account-btn button {
-  background-color: #0077C5;
+
+.button,
+.account-btn button {
+  background-color: #0077c5;
   border: 1px solid #666;
   padding: 7px 15px;
   border-radius: 5px;
   margin-left: 10px;
   color: #fff;
-	cursor: pointer;
+  cursor: pointer;
 }
 
-
-
-/* intuit logo and mini logos*/
-
-.logo{
+/* intuit logo and mini logos */
+.logo {
   text-align: center;
 }
-.mini-logos{
+
+.mini-logos {
   display: flex;
   justify-content: center;
-
 }
-.mini-logos a{
+
+.mini-logos a {
   display: flex;
   align-items: center;
 }
 
-.mini-logos span{
+.mini-logos span {
   margin: 5px;
 }
 
-
 /* Form */
-
-
-.form{
+.form {
   width: 25%;
   min-height: 300px;
   background-color: #fff;
-  padding: 20px 30px 0px 30px;
+  padding: 20px 30px 0 30px;
   margin: 10px auto;
   border: 1px solid #c7c7c7;
   border-radius: 2px;
-	position: relative;
+  position: relative;
 }
-.form h4{
+
+.form h4 {
   font-weight: bold;
   font-size: 1.3rem;
   text-align: center;
 }
+
 .form p,
-.form a{
+.form a {
   text-align: center;
   font-size: 0.8rem;
 }
-.form a{
+
+.form a {
   display: block;
 }
-.mini-text{
+
+.mini-text {
   margin: 20px 10px;
 }
-.inputs label{
+
+.inputs label {
   display: block;
   font-size: 0.8rem;
   margin-bottom: 7px;
 }
-.inputs input{
+
+.inputs input {
   width: 100%;
   height: 30px;
   border-radius: 3px;
-	border: 1px solid #c7c7c7;
-
+  border: 1px solid #c7c7c7;
 }
-.inputs{
+
+.inputs {
   margin-bottom: 30px;
 }
-.inputs span{
+
+.inputs span {
   font-size: 0.7rem;
-  margin-top: 0
+  margin-top: 0;
 }
 
-.account-btn{
-	text-align: center;
+.account-btn {
+  text-align: center;
 }
+
 .account-btn button {
   width: 100%;
-	margin: 0px;
-	padding: 10px 15px;
+  margin: 0;
+  padding: 10px 15px;
 }
 
-.privacy-terms{
-	text-align: center;
-	font-size: 0.9rem;
-	margin-top: 10px;
-	font-style: italic;
+.privacy-terms {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  font-style: italic;
 }
-
-
-
 
 /* footer */
-
-.form-footer p{
-	margin: 20px auto;
-	font-size: 0.7rem;
-}
-.form-footer a{
-	display: inline-block;
-	font-size: 0.7rem;
+.form-footer p {
+  margin: 20px auto;
+  font-size: 0.7rem;
 }
 
-.terms a{
-	display: inline-block;
-	font-size: 0.6rem;
-}
-.terms{
-	background-color: #eeeeee;
-	margin: 0px -30px;
+.form-footer a {
+  display: inline-block;
+  font-size: 0.7rem;
 }
 
-.terms p{
-	font-size: 0.6rem;
-	padding: 20px;
+.terms a {
+  display: inline-block;
+  font-size: 0.6rem;
+}
+
+.terms {
+  background-color: #eee;
+  margin: 0 -30px;
+}
+
+.terms p {
+  font-size: 0.6rem;
+  padding: 20px;
+}
+
+footer {
+  margin: 0 auto;
+  width: 50%;
+  padding: 20px 0;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin: 5px;
+}
+
+.footer-content p,
+.footer-links a {
+  text-align: center;
+  font-size: 0.75rem;
 }
 
 .form-footer a:hover,
 .terms a:hover,
 .mini-text a:hover,
 .footer-links a:hover {
-	text-decoration: underline;
-}
-
-footer{
-	margin: 0px auto;
-	width: 50%;
-	padding: 20px 0px;
-}
-.footer-links ul{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-.footer-links li{
-	margin: 5px;
-}
-.footer-content p,
-.footer-links a{
-	text-align: center;
-	font-size: 0.75rem;
+  text-decoration: underline;
 }
 
 /* MEDIA querries */
-
-@media screen and (max-width: 1300px){
-	.form{
-	  width: 30%;
-	}
-}
-@media screen and (max-width: 1096px){
-	.form{
-	  width: 40%;
-	}
-}
-@media screen and (max-width: 900px){
-	.form{
-	  width: 50%;
-	}
+@media screen and (max-width: 1300px) {
+  .form {
+    width: 30%;
+  }
 }
 
-@media screen and (max-width: 680px){
-	.form{
-	  width: 60%;
+@media screen and (max-width: 1096px) {
+  .form {
+    width: 40%;
+  }
 }
+
+@media screen and (max-width: 900px) {
+  .form {
+    width: 50%;
+  }
 }
-@media screen and (max-width: 556px){
-	.form{
-	  width: 70%;
-	}
-	footer{
-		width: 100%;
-	}
+
+@media screen and (max-width: 680px) {
+  .form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  .form {
+    width: 70%;
+  }
+
+  footer {
+    width: 100%;
+  }
 }
