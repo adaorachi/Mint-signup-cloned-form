@@ -16,7 +16,7 @@ The purpose of this project is to mimic the Mint signup page. It is a Mint signu
 
 
 ## Screenshots
-![Example screenshot](images/mint-screenshot.png)
+![Example screenshot](images/mint-screenshot.PNG)
 
 ## Technologies
 * HTML5
@@ -25,7 +25,7 @@ The purpose of this project is to mimic the Mint signup page. It is a Mint signu
 ## Setup
 This project is built with the basic web page structures and styling. It is pretty simple to setup. All you have to do is to clone the project into your local repository. 
 Find attatched below a preview of the project:
-<a href="https://raw.githack.com/JayKowski/html-collaborative-project/developer/index.html">Mint signup cloned form preview </a>
+<a href="https://raw.githack.com/adaorachi/mint-signup-cloned-form/development/index.html">Mint signup cloned form preview </a>
 
 ## Features
 List of features ready and TODOs for future development
